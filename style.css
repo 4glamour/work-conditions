@@ -1,0 +1,41 @@
+.container {
+  padding-top: 30px;
+  padding-left: 30px;
+
+  display: flex;
+}
+
+form[data-form] {
+  max-width: 400px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-right: 50px;
+}
+
+input {
+  margin-right: 10px;
+  width: 50px;
+  text-align: center;
+}
+
+button {
+  max-width: 200px;
+  margin-top: 15px;
+  margin-left: 60px;
+}
+
+form[data-copy] {
+  max-width: 1000px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.js-input-end-night-shift {
+  margin-bottom: 20px;
+}
