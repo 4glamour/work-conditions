@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Условия работы</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form data-form>
+        <label
+          ><input type="text" class="js-input-daytime-hours" value="3" />Сколько часов дневной
+          заход</label
+        >
+        <label
+          ><input type="text" class="js-input-start-night-shift" value="22" />Начало ночного захода
+          кандидата</label
+        >
+        <label
+          ><input type="text" class="js-input-end-night-shift" value="3" />Конец ночного захода
+          кандидата</label
+        >
+        <label
+          ><input type="text" class="js-input-start-day-shift-adm" value="10" />Начало дневного
+          захода посадчика</label
+        >
+        <label
+          ><input type="text" class="js-input-end-day-shift-adm" value="17" />Конец дневного захода
+          посадчика</label
+        >
+        <label
+          ><input type="text" class="js-input-start-night-shift-adm" value="22" />Начало ночного
+          захода посадчика</label
+        >
+        <label
+          ><input type="text" class="js-input-end-night-shift-adm" value="00" />Конец ночного захода
+          посадчика</label
+        >
+
+        <button type="button" data-form-btn>Сгенерировать текст</button>
+        <button type="button" data-copy-btn>Скопировать</button>
+      </form>
+
+      <form data-copy>
+        <textarea name="final-text" cols="70" rows="20"></textarea>
+      </form>
+    </div>
+
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
