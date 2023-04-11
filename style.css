@@ -39,3 +39,19 @@ form[data-copy] {
 .js-input-end-night-shift {
   margin-bottom: 20px;
 }
+
+.btns-container {
+  margin-top: 50px;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-create-n-copy {
+  max-width: 200px;
+  min-height: 50px;
+  margin-bottom: 20px;
+}
