@@ -59,6 +59,7 @@ const refLinkMsg = `Чтобы узнать более подробную инф
 После верификации мы сможем начать обучение 😊`;
 
 refs.formBtn.addEventListener('click', onFormBtnClick);
+refs.copyBtn.addEventListener('click', onCopyBtnClick);
 refs.greetAdvBtn.addEventListener('click', () => chooseMessage(greetAdvMsg));
 refs.greetTomorrowBtn.addEventListener('click', () => chooseMessage(greetTomorrowMsg));
 refs.greetRefBtn.addEventListener('click', () => chooseMessage(greetRefMsg));
